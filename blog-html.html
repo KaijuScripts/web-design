@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML Blog</title>
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <style>
+        /* Theme Styling */
+        body { 
+            background-color: #121212; 
+            color: #ffffff; 
+            font-family: Arial, sans-serif; 
+            margin: 0;
+        }
+        .content { 
+            background-color: #1a1a1a; 
+            padding: 25px; 
+            border: 1px solid #d4af37; 
+            border-radius: 8px; 
+        }
+        .home-btn { 
+            display: inline-block; 
+            margin-bottom: 20px; 
+            padding: 10px 20px; 
+            background-color: #1a1a1a; 
+            color: #d4af37; 
+            text-decoration: none; 
+            border: 1px solid #d4af37; 
+            border-radius: 4px; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+            font-size: 13px; 
+            transition: 0.3s;
+        }
+        .home-btn:hover { 
+            background-color: #d4af37; 
+            color: #1a1a1a; 
+        }
+        h1, h2, h3, h4, h5, h6 { color: #d4af37; }
+        hr { border: 0.5px solid #333; margin: 20px 0; }
+        table, th, td { 
+            border: 1px solid #d4af37; 
+            border-collapse: collapse; 
+            padding: 10px; 
+            text-align: left;
+        }
+        a { color: #d4af37; }
+        img { max-width: 100%; height: auto; border: 1px solid #d4af37; margin: 10px 0; }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="layout">
+            
+            <div class="content">
+                <a href="index.html" class="home-btn"><i class="fa-solid fa-house"></i> Home</a>
+
+                <h1>Learning html for the first time</h1>
+
+                <h2>This is a subheading</h2>
+                <h3>This is a subheading</h3>
+                <h4>This is a subheading</h4>
+                <h5>This is a subheading</h5>
+                <h6>This is a subheading</h6>
+
+                <hr>
+
+                <h2>Paragraph tag</h2>
+                <p>This is a paragraph</p>
+                <p>This is another paragraph</p>
+
+                <hr>
+
+                <h2>Links</h2>
+                <a href="#">This is a link</a><br>
+                <a href="#">This is another link</a>
+
+                <hr>
+
+                <h2>Images</h2>
+                <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_960_720.jpg" alt="Flower 1">
+                <img src="https://cdn.pixabay.com/photo/2018/02/09/23/17/rose-3142660_960_720.jpg" alt="Flower 2">
+                <a href="#"><img src="https://cdn.pixabay.com/photo/2015/05/13/13/55/pink-765487_960_720.jpg" alt="Linked Flower"></a>
+
+                <hr>
+
+                <h2>Lists</h2>
+                <ul>
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                </ul>
+
+                <ol>
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                </ol>
+
+                <hr>
+
+                <h2>Tables</h2>
+                <table>
+                    <tr>
+                        <th>Heading</th>
+                        <th>Heading</th>
+                        <th>Heading</th>
+                    </tr>
+                    <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="sidebar">
+                <div class="sidebar-section">
+                    <h2 class="sidebar-title">About me</h2>
+                    <img class="sidebar-my-image" src="assets/images/my-photo.png">
+                    <p class="sidebar-my-name">Kirdell Joseph</p>
+                    <p class="sidebar-about-me">
+                        I love programming. My first code displayed "hello world" and I have been hooked ever since.
+                    </p>
+                </div>
+
+                <div class="sidebar-section">
+                    <h2 class="sidebar-title">Why attend CTS?</h2>
+                    <img class="sidebar-cts-logo" src="assets/images/cts-logo-col.svg">
+                    <p class="sidebar-cts-paragraph">
+                        I chose CTS College because they provide a supportive environment for learning tech and the flexibility of the classes fits my lifestyle perfectly.
+                    </p>
+                    <a class="sidebar-cts-link" href="https://www.ctscollege.com" target="_blank" style="display: block; text-align: center; background: #d4af37; color: black; padding: 10px; text-decoration: none; font-weight: bold; margin-top: 10px;">CTS Webpage</a>
+                </div>
+
+                <div class="sidebar-section">
+                    <h2 class="sidebar-title">Tags</h2>
+                    <div class="sidebar-tag-container">
+                        <span class="sidebar-tag" style="border: 1px solid #d4af37; padding: 2px 5px; font-size: 12px; color: #d4af37;">HTML</span>
+                        <span class="sidebar-tag" style="border: 1px solid #d4af37; padding: 2px 5px; font-size: 12px; color: #d4af37; margin-left: 5px;">CODING</span>
+                    </div>
+                </div>
+            </div>
+
+        </div> 
+    </div> 
+
+    <div class="footer" style="text-align: center; padding: 20px; color: #777;">
+        <p>Copyright 2026 Kirdell Joseph</p>
+    </div>
+
+</body>
+</html>

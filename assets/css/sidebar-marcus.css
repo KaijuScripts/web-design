@@ -1,0 +1,72 @@
+.sidebar-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.sidebar-my-image {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.sidebar-my-name {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.sidebar-about-me {
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.sidebar-social-media {
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #8b4513;
+    margin-top: 15px;
+}
+
+.sidebar-social-icon {
+    display: inline-block;
+    background-color: #8b4513;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.sidebar-cts-logo {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.sidebar-cts-link {
+    display: block;
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sidebar-tag {
+    display: inline-block;
+    padding: 12px;
+    margin: 3px;
+    background-color: #8b4513;
+    color: white;
+    border-radius: 4px;
+}
+
+.sidebar-tag:hover {
+    background-color: #ff8c00;
+    cursor: pointer;
+}
